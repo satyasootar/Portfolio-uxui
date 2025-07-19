@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary-text: #000000;
+  --color-secondary-text: #4B4B4B;
+  --color-primary-accent:#FF8B1E;
+  --color-secondary-accent:#A9DEF0;
+
+  --font-archivo:"Archivo", sans-serif;
+  --font-figtree: "Figtree", sans-serif;
+  --font-lexend: "Lexend Deca", sans-serif;
+
+  --text-title: clamp(2rem,5vw,4.3rem);
+  --text-paragraph: clamp(0.75rem, 2vw,1.9375rem);
+
+  --breakpoint-mobile: 412px;
+  --breakpoint-tablet: 834px;
+  --breakpoint-laptop: 1440px;
+  
+}
+:root{
+  font-family: "Archivo";
+}
+
+::selection {
+  background-color: #000000; 
+  color: white;
+}

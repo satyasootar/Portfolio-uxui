@@ -17,8 +17,6 @@ export const Gallery = () => {
 
                 <div className="flex flex-cols gap-6 items-end ">
                     <img className="border-2 rounded-sm hover:border-sky-300 laptop:max-h-[25rem] max-h-[15rem]" src="./Gallery/boat.jpg" />
-                    <img className="border-2 rounded-sm hover:border-sky-300 laptop:max-h-[25rem] max-h-[15rem]" src="./Gallery/boat.jpg" />
-                    <img className="border-2 rounded-sm hover:border-sky-300 laptop:max-h-[25rem] max-h-[15rem]" src="./Gallery/boat.jpg" />
                     <img className="border-2 rounded-sm hover:border-sky-300 laptop:max-h-[25rem] max-h-[15rem]" src="./Gallery/Boys.jpg" />
                     <img className="border-2 rounded-sm hover:border-sky-300 laptop:max-h-[25rem] max-h-[15rem]" src="./Gallery/plane.jpg" />
                     <img className="border-2 rounded-sm hover:border-sky-300 laptop:max-h-[25rem] max-h-[15rem]" src="./Gallery/smile.jpg" />
